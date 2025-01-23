@@ -26,7 +26,9 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         Debug.Log($"The name of the class is {className}.");
+
 
         float difficulty = 0;
         //add percentage scaled by number for each category
